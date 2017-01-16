@@ -2,13 +2,13 @@ program AXS;
 
 uses
   Vcl.Forms,
-  srcMain in '..\Source\srcMain.pas' {Form1};
+  srcMain in '..\Source\srcMain.pas' {frmMain};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmMain, frmMain);
   Application.Run;
 end.
