@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{81EA02B7-57FC-4A15-A600-FF0C38F64B10}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AXS.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AXS">
+        <MSBuild Projects="AXS.dproj"/>
+    </Target>
+    <Target Name="AXS:Clean">
+        <MSBuild Projects="AXS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AXS:Make">
+        <MSBuild Projects="AXS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AXS"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AXS:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AXS:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

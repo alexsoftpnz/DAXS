@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.358,=C:\Users\root\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.953,=C:\Users\root\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.493,=C:\Users\root\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017.01.17 00:28:14.891,=C:\Users\root\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017.01.17 00:32:03.687,D:\SourceGit\DAXS\Delphi\Source\srcMain.dfm=C:\Users\root\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017.01.17 00:32:03.687,D:\SourceGit\DAXS\Delphi\Source\srcMain.pas=C:\Users\root\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017.01.17 00:32:11.905,D:\SourceGit\DAXS\Delphi\PRJ\AXS.dproj=C:\Users\root\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
