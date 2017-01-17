@@ -1,2 +1,4 @@
 *.dsk
 *.groupproj.local
+*.dproj.local
+*.stat
