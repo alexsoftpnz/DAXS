@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
   Left = 0
   Top = 0
-  Caption = 'frmMain'
+  Caption = #1055#1086#1076#1082#1083#1102#1095#1077#1085#1080#1077' '#1082' AXS'
   ClientHeight = 412
   ClientWidth = 871
   Color = clBtnFace
