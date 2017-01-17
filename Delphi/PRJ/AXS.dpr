@@ -4,15 +4,17 @@ uses
   Vcl.Forms,
   srcMain in '..\Source\srcMain.pas' {frmMain},
   Vcl.Themes,
-  Vcl.Styles;
+  Vcl.Styles,
+  SrcOptions in '..\Source\SrcOptions.pas' {Form1};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.Title := 'AXS BD';
   TStyleManager.TrySetStyle('Cyan Night');
+  Application.Title := 'AXS BD';
   Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.

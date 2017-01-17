@@ -6,12 +6,17 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, dxSkinsCore, dxSkinBlueprint,
   dxSkinDarkSide, dxSkinDevExpressStyle, dxSkinsDefaultPainters, dxSkinsForm,
-  cxClasses, cxLookAndFeels;
+  cxClasses, cxLookAndFeels, dxSkinStardust, cxGraphics, cxControls,
+  cxLookAndFeelPainters, dxCustomWizardControl, dxWizardControl, cxStyles,
+  dxSkinBlack, dxSkinBlue, dxSkinCaramel, dxSkinCoffee, dxSkinDarkRoom,
+  dxSkinDevExpressDarkStyle, dxSkinFoggy, dxSkinGlassOceans, dxSkinSeven,
+  dxSkinSevenClassic, dxSkinSharp, dxSkinSharpPlus, dxSkinSilver;
 
 type
   TForm1 = class(TForm)
-    cxStyleCtrl1: TcxLookAndFeelController;
-    dxskncntrlr1: TdxSkinController;
+    dxwzrdcntrl1: TdxWizardControl;
+    dxwzrdcntrlpg1: TdxWizardControlPage;
+    dxwzrdcntrlpg2: TdxWizardControlPage;
   private
     { Private declarations }
   public

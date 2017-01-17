@@ -13,18 +13,44 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object cxStyleCtrl1: TcxLookAndFeelController
-    Kind = lfOffice11
-    NativeStyle = False
-    SkinName = 'DarkSide'
-    Left = 395
-    Top = 180
-  end
-  object dxskncntrlr1: TdxSkinController
-    Kind = lfOffice11
-    NativeStyle = False
-    SkinName = 'DarkSide'
-    Left = 340
-    Top = 110
+  object dxwzrdcntrl1: TdxWizardControl
+    Left = 0
+    Top = 0
+    Width = 635
+    Height = 300
+    Buttons.CustomButtons.Buttons = <>
+    Header.AssignedValues = [wchvDescriptionFont, wchvTitleFont]
+    Header.DescriptionFont.Charset = RUSSIAN_CHARSET
+    Header.DescriptionFont.Color = clDefault
+    Header.DescriptionFont.Height = -15
+    Header.DescriptionFont.Name = 'Terminus'
+    Header.DescriptionFont.Style = []
+    Header.TitleFont.Charset = RUSSIAN_CHARSET
+    Header.TitleFont.Color = clDefault
+    Header.TitleFont.Height = -15
+    Header.TitleFont.Name = 'Terminus'
+    Header.TitleFont.Style = [fsBold]
+    LookAndFeel.Kind = lfUltraFlat
+    LookAndFeel.NativeStyle = False
+    LookAndFeel.SkinName = 'UserSkin'
+    ExplicitLeft = 160
+    ExplicitTop = 120
+    ExplicitWidth = 100
+    ExplicitHeight = 41
+    object dxwzrdcntrlpg1: TdxWizardControlPage
+      Header.AssignedValues = [wchvDescriptionFont, wchvTitleFont]
+      Header.DescriptionFont.Charset = RUSSIAN_CHARSET
+      Header.DescriptionFont.Color = clDefault
+      Header.DescriptionFont.Height = -15
+      Header.DescriptionFont.Name = 'Terminus'
+      Header.DescriptionFont.Style = []
+      Header.TitleFont.Charset = RUSSIAN_CHARSET
+      Header.TitleFont.Color = clDefault
+      Header.TitleFont.Height = -15
+      Header.TitleFont.Name = 'Terminus'
+      Header.TitleFont.Style = [fsBold]
+    end
+    object dxwzrdcntrlpg2: TdxWizardControlPage
+    end
   end
 end

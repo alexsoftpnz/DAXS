@@ -60,13 +60,17 @@ object frmMain: TfrmMain
   end
   object cBtnOK: TcxButton
     Left = 240
-    Top = 176
+    Top = 163
     Width = 83
     Height = 34
     Caption = 'OK'
+    LookAndFeel.Kind = lfStandard
+    LookAndFeel.NativeStyle = True
+    LookAndFeel.SkinName = 'DarkSide'
     OptionsImage.ImageIndex = 1
     OptionsImage.Images = ImageList1
     TabOrder = 2
+    OnClick = cBtnOKClick
   end
   object btn1: TButton
     Left = 48
@@ -83,7 +87,7 @@ object frmMain: TfrmMain
     Left = 170
     Top = 75
     Bitmap = {
-      494C010106000800180020002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010106000800240020002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800000004000000001002000000000000080
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
