@@ -58,15 +58,23 @@ object frmMain: TfrmMain
     TabOrder = 1
     Text = 'edtUserPass'
   end
-  object Button1: TButton
-    Left = 120
-    Top = 160
-    Width = 166
-    Height = 45
-    Caption = 'Button1'
-    ImageIndex = 0
-    Images = ImageList1
+  object cBtnOK: TcxButton
+    Left = 240
+    Top = 176
+    Width = 83
+    Height = 34
+    Caption = 'OK'
+    OptionsImage.ImageIndex = 1
+    OptionsImage.Images = ImageList1
     TabOrder = 2
+  end
+  object btn1: TButton
+    Left = 48
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = 'btn1'
+    TabOrder = 3
   end
   object ImageList1: TImageList
     DrawingStyle = dsTransparent
@@ -75,7 +83,7 @@ object frmMain: TfrmMain
     Left = 170
     Top = 75
     Bitmap = {
-      494C010106000800140020002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010106000800180020002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800000004000000001002000000000000080
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
